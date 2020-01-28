@@ -1,0 +1,29 @@
+.MM-Panel {
+  margin: 20px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.MM-PanelHeader {
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: $destaque;
+  font-size: 1.3em;
+}
+
+.MM-PanelBody {
+  padding: 15px;
+}
+
+.MM-PanelFooter {
+  padding: 10px 15px;
+  background-color: $destaque;
+  border-top: 1px solid #eee;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}

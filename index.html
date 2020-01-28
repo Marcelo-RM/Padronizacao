@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Padronizacao</title>
+    <script src="build/MM.min.js"></script>
+    <link rel="stylesheet" href="build/MM.min.css">
+</head>
+
+<body>
+    <nav class="MM-NavHeader MM-Shadow MM-Destaque">
+        <button class="MM-NavBack" onclick="window.history.back()"></button>
+        <img src="" alt=""
+            class="MM-Logo">
+
+        <button class="MM-Logout"></button>
+    </nav>
+
+    <div class="MM-Header">
+        <span class="MM-Title">Header</span>
+        <div class="MM-ResponsiveContainer">
+            <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+            <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+            <b>Label: </b> <span class="MM-Capitalize">value</span>
+        </div>
+        <div class="MM-ResponsiveContainer">
+            <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+            <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+            <b>Label: </b> <span class="MM-Capitalize">value</span>
+        </div>
+    </div>
+
+
+    <div class="MM-Container">
+        <div class="MM-Title">
+            Text Form
+        </div>
+        <div class="MM-TextForm">
+            <div class="MM-TextFormRow">
+                <span class="MM-TextFormLabel">Usuário:</span>
+                <span class="MM-TextFormValue">Marcelo Rodrigues Montalvão</span>
+            </div>
+            <div class="MM-TextFormRow">
+                <div class="MM-TextFormLabel">CPF:</div>
+                <div class="MM-TextFormValue">999.999.999-99</div>
+            </div>
+            <div class="MM-TextFormRow">
+                <span class="MM-TextFormLabel">Telefone:</span>
+                <span class="MM-TextFormValue">(61) 9 9999-9999</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="MM-Container" style="width: 20rem;">
+        <span class="MM-Title">Inputs</span>
+        <input type="text" class="MM-Input" name="text" id="text" placeholder="Text Input">
+        <input type="password" class="MM-Input" name="pass" id="pass" placeholder="Password Input">
+        <div class="MM-Search">
+            <input type="text" class="MM-Input" name="search" id="search" placeholder="Search Input"
+                onkeydown="if(event.keyCode == 13){this.nextElementSibling.click()}">
+            <button onclick="alert('searching...')" class="MM-SearchButton"></button>
+        </div>
+        <select name="select" class="MM-Select">
+            <option value="01">Select 01</option>
+            <option value="02">Select 02</option>
+            <option value="03">Select 03</option>
+        </select>
+    </div>
+
+    <div class="MM-Container">
+        <span class="MM-Title">Buttons</span>
+        <div class="MM-Container">
+            <button class="MM-Button MM-PrimaryOutline">Outline Primary</button>
+            <button class="MM-Button MM-Primary">Primary</button>
+        </div>
+        <div class="MM-Container">
+            <button class="MM-Button MM-SuccessOutline">Outline Success</button>
+            <button class="MM-Button MM-Success">Success</button>
+        </div>
+        <div class="MM-Container">
+            <button class="MM-Button MM-WarningOutline">Outline Warning</button>
+            <button class="MM-Button MM-Warning">Warning</button>
+        </div>
+        <div class="MM-Container">
+            <button class="MM-Button MM-ErrorOutline">Outline Error</button>
+            <button class="MM-Button MM-Error">Error</button>
+        </div>
+        <div class="MM-Container">
+            <button class="MM-Button MM-DisabledOutline">Outline Disabled</button>
+            <button class="MM-Button MM-Disabled">Disabled</button>
+        </div>
+    </div>
+
+    <div class="MM-Container">
+        <span class="MM-Title">List</span>
+        <ul class="MM-ListGroup MM-Striped">
+            <li class="MM-ListItem MM-ListArrow">
+                <div class="MM-Title">List Item Title
+                    <span class="MM-Badge MM-Primary">badge</span>
+                </div>
+            </li>
+            <li class="MM-ListItem MM-ListArrow">
+                <div class="MM-Title">List Item Title
+                    <span class="MM-Badge MM-Warning">badge</span>
+                </div>
+            </li>
+            <li class="MM-ListItem">
+                <div class="MM-Title">List Item Title
+                    <span class="MM-Badge MM-Error">badge</span>
+                </div>
+            </li>
+            <li class="MM-ListItem">
+                <div class="MM-Title">List Item Title
+                    <span class="MM-Badge MM-Success">badge</span>
+                </div>
+            </li>
+            <li class="MM-ListItem MM-ListIcon">
+                <div class="MM-ListItemIcon">
+                    <i class="far fa-clock"></i>
+                </div>
+                <div class="MM-ResponsiveContainer">
+                    <span class="MM-Title">List Item Title</span>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span>
+                </div>
+                <div class="MM-ResponsiveContainer">
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span>
+                </div>
+            </li>
+            <li class="MM-ListItem MM-ListIcon MM-ListArrow">
+                <div class="MM-ListItemIcon">
+                    <i class="far fa-check-circle"></i>
+                </div>
+                <span class="MM-Title">List Item Title</span>
+                <div class="MM-ResponsiveContainer">
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span>
+                </div>
+                <div class="MM-ResponsiveContainer">
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span> <br>
+                    <b>Label: </b> <span class="MM-Capitalize">value</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="MM-Container">
+        <span class="MM-Title">Panel</span>
+
+        <div class="MM-Panel">
+            <div class="MM-PanelHeader">
+                Panel Header
+            </div>
+            <div class="MM-PanelBody">
+                Panel Content
+            </div>
+            <div class="MM-PanelFooter">
+                Panel footer
+            </div>
+        </div>
+    </div>
+
+    <footer class="MM-Footer">
+        <button class="MM-Button MM-ErrorOutline">Error</button>
+        <button class="MM-Button MM-SuccessOutline">Success</button>
+        <button class="MM-Button MM-WarningOutline">Warning</button>
+        <button class="MM-Button MM-PrimaryOutline">Primary</button>
+    </footer>
+
+    <!--SCRIPT DESNECESSARIO, APENAS ESCONDE BUSY APÓS 5 SEGUNDOS-->
+    <script>
+        // Captura todos os botões da tela
+        var btns = document.getElementsByTagName("button");
+        //Loop passando por todos os botões
+        for (var i = 1; i < btns.length; i++) {
+            //Cria método somente se os botões forem diferente de navback e disabled
+            //Não utilizando verificaço com classe por causa do internet explore (._. )
+            //var className = btns.item(i).className;
+            //if (!className.includes('NavBack') && !className.includes('Logout') && !className.includes("Disabled")) {
+            if (i != 2 && i != 11 && i != 12) {
+                btns.item(i).onclick = function (event) {
+                    //chama método do MMFN.js
+                    MM.showBusy();
+                    //Após 5 segundos fecha o busy, método do MMFN.js
+                    setTimeout(function () {
+                        MM.hideBusy();
+                        var type = this.className.includes('Error') ? 'error' : 'info';
+                        type = this.className.includes('Warning') ? 'warning' : type;
+                        type = this.className.includes('Success') ? 'success' : type;
+                        MM.alert({
+                            type: type,
+                            title: "Titulo",
+                            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus distinctio officia, doloremque.",
+                            buttons: [
+                                {
+                                    text: 'Cancelar',
+                                    //type: 'success',
+                                    //action: function () { }
+                                },
+                                {
+                                    text: 'Confirmar',
+                                    type: type,
+                                    action: function () { MM.alert({ type: 'success', title: 'Sucesso', text: 'Selecionou ação principal' }) }
+                                }
+                            ]
+                        });
+                    }.bind(this), 3000);
+                }
+            }
+        }
+
+        //POLYFILL PARA STRING.PROTOTYPE.INCLUDES TO RUN IN INTERNET EXPLORER
+        if (!String.prototype.includes) {
+            String.prototype.includes = function () {
+                'use strict';
+                return String.prototype.indexOf.apply(this, arguments) !== -1;
+            };
+        }
+    </script>
+</body>
+
+</html>

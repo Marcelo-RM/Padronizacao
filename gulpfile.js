@@ -23,7 +23,7 @@ gulp.task("default", () => {
         .pipe(gulp.dest("build"));
         
         //Minificando Css
-        gulp.src("src/sass/MM.scss")
+        gulp.src("src/scss/MM.scss")
             .pipe(sass().on("error", sass.logError))
             .pipe(bless())
             .pipe(uglifycss({"uglyCoomments": true}))

@@ -1,0 +1,47 @@
+.MM-ListGroup {
+  padding-left: 0;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.MM-ListItem {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.MM-ListArrow {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAZklEQVR4Ae3PwQ1AABQEUSUpSRE7feiADumAOBFn+fKTecnedwZJkiR9I8kKLJ3PH9faRQDzfb5hBDACuxH1jDDCCCOMKApIsr0Dkqye97znPe95z/8OmArOF0R0Pf+MqDsvSZKkE8rFRzzUb3XpAAAAAElFTkSMMmCC")
+    right 8px center no-repeat;
+  background-size: 30px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.MM-Striped li:nth-of-type(odd) {
+  background-color: white;
+}
+
+.MM-Striped li:nth-of-type(even) {
+  background-color: #f3f9fb !important;
+}
+
+.MM-ListItemIcon {
+  position: absolute;
+  display: flex;
+  padding: 10px 0 0 0;
+  align-items: flex-start;
+  height: calc(100% - 20px);
+  text-align-last: center;
+  width: 55px;
+  margin-left: -55px;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.MM-ListIcon {
+  padding-left: 55px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import "cores.scss";
+@import "header.scss";
+@import "containers.scss";
+@import "panel.scss";
+@import "footer.scss";
+@import "imgs-links.scss";
+@import "input.scss";
+@import "button.scss";
+@import "list.scss";
+@import "text.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: $fontColor;
+  background-color: $background;
+}

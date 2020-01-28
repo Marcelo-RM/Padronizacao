@@ -1,0 +1,31 @@
+.MM-Button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 5px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+}
+
+.MM-Button:focus {
+  outline: none;
+}
+
+.MM-Button:active:not(.MM-Disabled):not(.MM-DisabledOutline) {
+  -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
+}

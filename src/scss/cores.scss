@@ -1,0 +1,93 @@
+$primary: #5496cd;
+$success: #c3e76f;
+$warning: #ffcd00;
+$error: #e2251d;
+$gray: #a6a6a6;
+$fontColor: #333;
+$destaque: #eff4f9;
+$background: #fafafa;
+
+.MM-Primary {
+  color: #fff !important;
+  background-color: $primary !important;
+  border-color: $primary !important;
+}
+
+.MM-PrimaryOutline {
+  border: 1px solid $primary !important;
+  color: $primary !important;
+  background-color: transparent !important;
+}
+
+.MM-Error {
+  color: #fff !important;
+  background-color: $error !important;
+  border-color: $error !important;
+}
+
+.MM-ErrorOutline {
+  border: 1px solid $error !important;
+  color: $error !important;
+  background-color: transparent !important;
+}
+
+.MM-Warning {
+  color: #fff !important;
+  background-color: $warning !important;
+  border-color: $warning !important;
+}
+
+.MM-WarningOutline {
+  border: 1px solid $warning !important;
+  color: $warning !important;
+  background-color: transparent !important;
+}
+
+.MM-Success {
+  color: #fff !important;
+  background-color: $success !important;
+  border-color: $success !important;
+}
+
+.MM-SuccessOutline {
+  border: 1px solid $success !important;
+  color: $success !important;
+  background-color: transparent !important;
+}
+
+.MM-Disabled {
+  color: #fff !important;
+  background-color: $gray !important;
+  border-color: $gray !important;
+  cursor: not-allowed;
+}
+
+.MM-DisabledOutline {
+  border: 1px solid $gray !important;
+  color: $gray !important;
+  background-color: transparent !important;
+  cursor: not-allowed;
+}
+
+.MM-Shadow {
+  box-shadow: 0 1px 2px 0 $destaque, inset 0 -1px 2px 0 #d1e0ee !important;
+}
+
+.MM-Destaque {
+  background-color: $destaque;
+}
+
+.MM-Badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-color: #777;
+  border-radius: 10px;
+}
