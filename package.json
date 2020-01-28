@@ -1,0 +1,35 @@
+{
+  "name": "padronizacao",
+  "version": "1.0.0",
+  "description": "Css e Js para padronizacao de aplicacoes web",
+  "main": "index.html",
+  "scripts": {
+    "build": "tsc && gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marcelo-RM/Padronizacao.git"
+  },
+  "author": "Marcelo Montalvao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marcelo-RM/Padronizacao/issues"
+  },
+  "homepage": "https://github.com/Marcelo-RM/Padronizacao#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-bless": "^4.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "typescript": "^3.7.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "files": [
+        "src/typescript/MM.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "ES3",
+        "outFile": "src/js/MM.js"
+    }
+}
