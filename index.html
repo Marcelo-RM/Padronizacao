@@ -8,6 +8,7 @@
     <title>Padronizacao</title>
     <script src="build/MM.min.js"></script>
     <link rel="stylesheet" href="build/MM.min.css">
+    <link rel="stylesheet" href="build/MM-Icon.css">
 </head>
 
 <body>
@@ -18,6 +19,11 @@
 
         <button class="MM-Logout"></button>
     </nav>
+
+    <div>
+        <i class="MM-Icon-add"></i>
+        <i class="MM-Icon-clock"></i>
+    </div>
 
     <div class="MM-Header">
         <span class="MM-Title">Header</span>
@@ -73,24 +79,54 @@
     <div class="MM-Container">
         <span class="MM-Title">Buttons</span>
         <div class="MM-Container">
-            <button class="MM-Button MM-PrimaryOutline">Outline Primary</button>
-            <button class="MM-Button MM-Primary">Primary</button>
+            <button class="MM-Button MM-PrimaryOutline">
+                <i class="MM-Icon-View"></i>
+                Outline Primary
+            </button>
+            <button class="MM-Button MM-Primary">
+                <i class="MM-Icon-Share"></i>    
+                Primary
+            </button>
         </div>
         <div class="MM-Container">
-            <button class="MM-Button MM-SuccessOutline">Outline Success</button>
-            <button class="MM-Button MM-Success">Success</button>
+            <button class="MM-Button MM-SuccessOutline">
+                <i class="MM-Icon-Success"></i>
+                Outline Success
+            </button>
+            <button class="MM-Button MM-Success">
+                <i class="MM-Icon-Success-2"></i>
+                Success
+            </button>
         </div>
         <div class="MM-Container">
-            <button class="MM-Button MM-WarningOutline">Outline Warning</button>
-            <button class="MM-Button MM-Warning">Warning</button>
+            <button class="MM-Button MM-WarningOutline">
+                <i class="MM-Icon-Warning"></i>
+                Outline Warning
+            </button>
+            <button class="MM-Button MM-Warning">
+                <i class="MM-Icon-Warning-1"></i>
+                Warning
+            </button>
         </div>
         <div class="MM-Container">
-            <button class="MM-Button MM-ErrorOutline">Outline Error</button>
-            <button class="MM-Button MM-Error">Error</button>
+            <button class="MM-Button MM-ErrorOutline">
+                <i class="MM-Icon-Close"></i>
+                Outline Error
+            </button>
+            <button class="MM-Button MM-Error">
+                <i class="MM-Icon-Error"></i>
+                Error
+            </button>
         </div>
         <div class="MM-Container">
-            <button class="MM-Button MM-DisabledOutline">Outline Disabled</button>
-            <button class="MM-Button MM-Disabled">Disabled</button>
+            <button class="MM-Button MM-DisabledOutline">
+                <i class="MM-Icon-Settings-5"></i>   
+                Outline Disabled
+            </button>
+            <button class="MM-Button MM-Disabled">
+                <i class="MM-Icon-Send"></i>    
+                Disabled
+            </button>
         </div>
     </div>
 
@@ -119,7 +155,7 @@
             </li>
             <li class="MM-ListItem MM-ListIcon">
                 <div class="MM-ListItemIcon">
-                    <i class="far fa-clock"></i>
+                    <i class="MM-Icon-Success-2"></i>
                 </div>
                 <div class="MM-ResponsiveContainer">
                     <span class="MM-Title">List Item Title</span>
@@ -135,7 +171,7 @@
             </li>
             <li class="MM-ListItem MM-ListIcon MM-ListArrow">
                 <div class="MM-ListItemIcon">
-                    <i class="far fa-check-circle"></i>
+                    <i class="MM-Icon-Clock"></i>
                 </div>
                 <span class="MM-Title">List Item Title</span>
                 <div class="MM-ResponsiveContainer">
@@ -169,10 +205,22 @@
     </div>
 
     <footer class="MM-Footer">
-        <button class="MM-Button MM-ErrorOutline">Error</button>
-        <button class="MM-Button MM-SuccessOutline">Success</button>
-        <button class="MM-Button MM-WarningOutline">Warning</button>
-        <button class="MM-Button MM-PrimaryOutline">Primary</button>
+        <button class="MM-Button MM-ErrorOutline">
+            Error
+            <i class="MM-Icon-Trash"></i>
+        </button>
+        <button class="MM-Button MM-SuccessOutline">
+            Success
+            <i class="MM-Icon-Send-1"></i>
+        </button>
+        <button class="MM-Button MM-WarningOutline">
+            Warning
+            <i class="MM-Icon-Warning-1"></i>
+        </button>
+        <button class="MM-Button MM-PrimaryOutline">
+            Primary
+            <i class="MM-Icon-Link"></i>
+        </button>
     </footer>
 
     <!--SCRIPT DESNECESSARIO, APENAS ESCONDE BUSY APÓS 5 SEGUNDOS-->

@@ -134,16 +134,16 @@ function _alert(options) {
  */
 function _getColorByType(type) {
     if (type == "info") {
-        return { bg: "#5496cd", ft: "#fff" };
+        return { bg: "#0058AE", ft: "#fff" };
     }
     if (type == "success") {
-        return { bg: "#C3E76F", ft: "#fff" };
+        return { bg: "#00bd72", ft: "#fff" };
     }
     if (type == "warning") {
-        return { bg: "#FFCD00", ft: "#fff" };
+        return { bg: "#FFBF00", ft: "#fff" };
     }
     if (type == "error") {
-        return { bg: "#E2251D", ft: "#fff" };
+        return { bg: "#ED1C24", ft: "#fff" };
     }
     return { bg: "#DDD", ft: "#333" };
 }
