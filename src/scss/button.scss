@@ -10,7 +10,6 @@
   vertical-align: middle;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -18,13 +17,14 @@
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 0;
+  cursor: pointer;
 }
 
 .MM-Button:focus {
   outline: none;
 }
 
-.MM-Button:active:not(.MM-Disabled):not(.MM-DisabledOutline) {
+.MM-Button:active:not(.MM-Button-Disabled):not(.MM-Button-DisabledOutline) {
   -webkit-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.4);
   box-shadow: inset 0px 0px 3px 1px rgba(0, 0, 0, 0.4);

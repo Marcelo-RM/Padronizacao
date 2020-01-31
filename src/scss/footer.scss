@@ -11,25 +11,25 @@
     margin: 3px;
   }
 
-  .MM-PrimaryOutline:hover {
+  .MM-Button-PrimaryOutline:hover {
     color: #fff !important;
     background-color: #337ab7 !important;
     border-color: #2e6da4 !important;
   }
 
-  .MM-ErrorOutline:hover {
+  .MM-Button-ErrorOutline:hover {
     color: #fff !important;
     background-color: $error !important;
     border-color: $error !important;
   }
 
-  .MM-WarningOutline:hover {
+  .MM-Button-WarningOutline:hover {
     color: #fff !important;
     background-color: $warning !important;
     border-color: $warning !important;
   }
 
-  .MM-SuccessOutline:hover {
+  .MM-Button-SuccessOutline:hover {
     color: #fff !important;
     background-color: $success !important;
     border-color: $success !important;
