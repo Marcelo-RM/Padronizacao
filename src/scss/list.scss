@@ -21,12 +21,24 @@
   cursor: pointer;
 }
 
-.MM-Striped li:nth-of-type(odd) {
+.UQ-ListArrow:hover {
+  background-color: #bbe1e4 !important;
+}
+
+.UQ-Striped .UQ-ListItem:nth-of-type(odd) {
   background-color: white;
 }
 
-.MM-Striped li:nth-of-type(even) {
-  background-color: $destaque !important;
+.UQ-Striped .UQ-ListArrow:nth-of-type(odd):hover {
+  background-color: #bbe1e4 !important;
+}
+
+.UQ-Striped .UQ-ListItem:nth-of-type(even) {
+  background-color: #f3f9fb !important;
+}
+
+.UQ-Striped .UQ-ListArrow:nth-of-type(even):hover {
+  background-color: #bbe1e4 !important;
 }
 
 .MM-ListItemIcon {
