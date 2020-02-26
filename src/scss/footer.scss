@@ -7,6 +7,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  max-width: inherit;
+  bottom: 0;
 
   .MM-Button {
     margin: 3px;
